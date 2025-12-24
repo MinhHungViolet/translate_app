@@ -27,7 +27,7 @@ Please translate the Source Text above according to the Context and Request prov
                 "X-Title": "Novel Translator App",     // Optional: App name
             },
             body: JSON.stringify({
-                model: "mistralai/devstral-2512:free",
+                model: "google/gemma-3-27b-it:free",
                 messages: [
                     {
                         role: "user",
